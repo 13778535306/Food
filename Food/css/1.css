@@ -1,0 +1,166 @@
+ nav{
+	/*background-color:#F0F8FF;*/
+	height: 70px;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+  position: fixed;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+article .item img{
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+  }
+article .item img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    
+  }
+.item p{
+  margin-left:100px;
+}
+
+nav ul li{
+  float: left;
+  line-height: 50px;
+  margin-left: 150px;
+  font-family: Monospace;
+  font-style: italic;	
+}
+nav ul li :hover{
+ /* background-color: red;*/
+  font-size: 30px;
+
+
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 25px;
+}
+
+article{
+	margin-top:40px;
+	/*background-color: lightblue;*/
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+article .item img{
+
+	width: 300px;
+	height: 300px;
+}
+
+article .item{
+	width: 400px;
+	text-align: left;
+	border-color: red;
+	display: inline-block;
+	margin: 60px;
+	
+}
+article .item p{
+	font-style: italic;
+}
+#zs{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  text-decoration: none	;
+  
+
+}
+.lunbo{
+  height: 450px;
+  background-color: ;
+}
+.swiper-container {
+    width: 1200px;
+    height:300px;
+    z-index:1;
+    top: 100px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    /*display: none;*/
+}
+.d{
+  width: 1200px;
+  height: 2500px;
+  /*background-color: lightblue;*/
+  margin-left: 150px;
+}
+
+/*.d1{
+  height: 300px;
+  background-color: lightblue;
+}*/
+.d1-1{
+  width: 430px;
+  margin-top: ;
+}
+.d1-2{
+  width: 434px;
+  margin-left: 330px;
+}
+
+
+.d1-a{
+  height: 50px;
+  margin: 100px;
+  font-size: 20px;
+}
+.d2 a{
+  text-decoration: none;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 10px;
+  padding: 35px;
+}
+.d2 a:hover{
+  text-decoration: underline;
+  font-size: 28px;
+}
+.d3-1{
+  width: 300px;
+  height: 300px;
+  border: 0px solid black;
+  margin-top: 20px;
+}
+.d3-1 img{
+  width: 300px;
+  height: 300px;
+}
+.d3-1{
+  text-align: center;
+  float: left;
+
+}
+.d3-1-1{
+  width: 150px;
+  height: 300px;
+  float: left;
+}
+footer{
+  height: 100px;
+  background-color: #ccc;
+}
+
+footer a{
+  text-decoration: none;
+}
+footer a:hover{
+  text-decoration: underline;
+}

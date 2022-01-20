@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>四川美食</title>
+	<link rel="stylesheet" type="text/css" href="css/1.css">
+	<!-- <script type="text/javascript" src="js/index.js"></script> -->
+	<link href="https://cdn.bootcdn.net/ajax/libs/animate.css/4.1.1/animate.compat.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+</head>
+<style>
+body{
+    background-image: url(image/m_bo-1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1600px 800px;
+    background-attachment: fixed;
+}
+</style>
+
+<body>
+<nav>
+<ul>
+		<li><a href="index.html">首页</a></li>
+		<li><a href="histroy.html">美食介绍</a></li>
+		<li><a href="">搭配</a></li>
+		<li><a href="">活动</a></li>
+		<li><a href="">推荐美食</a></li>
+		<li><a href="login.html">登录</a></li>
+	</ul>
+</nav>
+
+<div class="d">
+	
+<div class="lunbo">
+	<div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" style="background-image:url(image/m_bo-1.jpg)"><div class="cover"></div></div>
+            <div class="swiper-slide" style="background-image:url(image/m_bo-2.jpg)"><div class="cover"></div></div>
+            <div class="swiper-slide" style="background-image:url(image/m_bo-3.jpg)"><div class="cover"></div></div>
+            <div class="swiper-slide" style="background-image:url(image/m_bo-1.jpg)"><div class="cover"></div></div>
+            <div class="swiper-slide" style="background-image:url(image/m_bo-2.jpg)"><div class="cover"></div></div>
+        </div>
+    </div>
+
+</div>
+
+<div class="d1">
+	<img src="image/d.webp" class="d1-1" alt="">
+	
+	<img src="image/d1.webp" class="d1-2" alt="">
+</div>
+<div id='app'>
+<div class="d1-a">首先，我们来看看各大菜系的代表之作</div>
+<div class="d2">
+	<a href="javascript:;" @click='chuancai'>川菜</a>
+	<a href="javascript:;" @click='yuecai'>粤菜</a>
+	<a href="javascript:;" >鲁菜</a>
+	<a href="javascript:;">闽菜</a>
+	<a href="javascript:;">苏菜</a>
+	<a href="javascript:;">浙菜</a>
+	<a href="javascript:;">湘菜</a>
+	<a href="javascript:;">徽菜</a>
+</div>
+<!-- <div class="d3">
+	<div class="d3-1">	<img src="image/mlt.jpg" alt="">
+	<p class="d3-1-a">麻辣兔</p>
+    </div>
+    <div class="d3-1-1"></div>
+    <div class="d3-1">	<img src="image/mlt.jpg" alt="">
+	<p class="d3-1-a">麻辣兔</p>
+    </div>
+    <div class="d3-1-1"></div>
+    <div class="d3-1">	<img src="image/mlt.jpg" alt="">
+	<p class="d3-1-a">麻辣兔</p>
+    </div>
+</div> -->
+<article  >
+	<transition-group enter-active-class='animated bounceIn' leave-acive-class=' animated bounceInRight'>
+	<div v-show='flag1' :key='2'>
+	<div class="item">
+		<img src="image/mlt.jpg" alt="" class="mlt">
+		 <p>麻辣兔</p>
+		
+	</div>
+	<div class="item">
+		<img src="image/mlt.jpg" alt="">
+		<p>麻辣兔</p>
+		
+	</div>
+	<div class="item">
+		<img src="image/mlt.jpg" alt="">
+		<p>麻辣兔</p>
+		
+	</div>
+	<div class="item">
+		<img src="image/mlt.jpg" alt="">
+		<p>麻辣兔</p>
+		
+	</div>
+	<div class="item">
+		<img src="image/mlt.jpg" alt="">
+		<p>麻辣兔</p>
+		
+	</div>
+	<div class="item">
+		<img src="image/mlt.jpg" alt="">
+		<p>麻辣兔</p>
+		
+	</div>
+	<div class="item">
+		<img src="image/mlt.jpg" alt="">
+		<p>麻辣兔</p>
+		
+	</div>
+	<div class="item">
+		<img src="image/mlt.jpg" alt="">
+		<p>麻辣兔</p>
+	</div>
+	</div>
+</transition-group>
+</article>
+
+<article >
+	<transition-group enter-active-class='animated bounceIn' leave-acive-class=' animated bounceInRight'>
+	<div v-show='flag' :key='1'>
+	<div class="item"  >
+		<img src="image/yuecai.jpg" alt="" class="mlt">
+		 <p>鲍鱼</p>
+		
+	</div>
+	<div class="item">
+		<img src="image/yuecai.jpg" alt="" class="mlt">
+		 <p>鲍鱼</p>
+		
+	</div>
+	<div class="item">
+		<img src="image/yuecai.jpg" alt="" class="mlt">
+		 <p>鲍鱼</p>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        	
+	</div>
+	<div class="item">
+		<img src="image/yuecai.jpg" alt="" class="mlt">
+		 <p>鲍鱼</p>
+		
+	</div>
+	<div class="item">
+		<img src="image/yuecai.jpg" alt="" class="mlt">
+		 <p>鲍鱼</p>
+		
+	</div>
+	<div class="item">
+	<img src="image/yuecai.jpg" alt="" class="mlt">
+		 <p>鲍鱼</p>
+		
+	</div>
+	<div class="item">
+	<img src="image/yuecai.jpg" alt="" class="mlt">
+		 <p>鲍鱼</p>
+		
+	</div>
+	<div class="item">
+		<img src="image/yuecai.jpg" alt="" class="mlt">
+		 <p>鲍鱼</p>
+		
+	</div>
+</div>
+	</transition-group>
+</article>
+</div>
+<footer>
+	
+	<p>友情链接：<a href="">中华美食典籍</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">舌尖上的中国</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">美食节</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">美食大赛</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="">美食之家</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=""></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="">舌尖上的中国</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+	<p>版权所有：©四川美食<p>邮箱联系：1298274362@qq.com</p></p>
+
+	
+</footer>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+	<script type="text/javascript" src="js/swiper.min.js"></script>
+<script>
+	new Vue({
+		el:'#app',
+		data:{
+			flag:false,
+			flag1:true
+		},
+		methods:{
+			yuecai(){
+				this.flag=true,
+				this.flag1=false
+			},
+			chuancai(){
+				this.flag=false,
+				this.flag1=true
+			}
+		}
+	})
+
+
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        effect: 'fade',
+        autoplay: 3000
+    });
+var oLoginBox=document.getElementById("m_login-box");
+var oLoginLi=oLoginBox.querySelectorAll(".m_login_top li");
+var oLoginDiv=oLoginBox.querySelectorAll(".m_first");
+//var oLoginA=oLoginLi.querySelector("a");
+
+for(var i=0;i<oLoginLi.length;i++){
+    oLoginLi[i].index=i;
+    oLoginLi[i].onclick=function(){
+        for(var j=0;j<oLoginLi.length;j++){
+            oLoginLi[j].className="";
+            oLoginDiv[j].style.display="none";
+        }
+        oLoginLi[this.index].className="m-checked";
+        oLoginDiv[this.index].style.display="block";
+    }
+}
+
+</script>
+</html>
